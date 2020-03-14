@@ -25,10 +25,10 @@ def execute_transaction
     else
       @sender.deposit( @amount * -1 ) 
       @receiver.deposit( @amount )
-      @status = "Transaction rejected. Please check your account balance."
+      @status = "complete"
     end
   end
-#binding.pry 
+binding.pry 
   def reverse_transfer
     if @status == "complete"
       @sender.deposit( @amount ) 
