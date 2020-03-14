@@ -15,8 +15,8 @@ class Transfer
   end
   
 
-  def execute_transaction
-   @sender - @amount
+  def execute_transaction(total)
+   total = @sender - @amount
    @status = "complete"
    
     #binding.pry 
