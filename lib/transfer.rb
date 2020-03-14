@@ -20,7 +20,7 @@ def execute_transaction
       @status = "rejected"
       return "Transaction rejected. Please check your account balance."
 
-    else @status == "complete"
+    elsif @status == "complete"
       puts "Transaction was already excuted"
     else
       @sender.deposit( @amount * -1 ) 
