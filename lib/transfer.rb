@@ -28,7 +28,7 @@ def execute_transaction
       @status = "complete"
     end
   end
-
+binding.pry 
   def reverse_transfer
     if @status == "complete"
       @sender.deposit( @amount ) 
