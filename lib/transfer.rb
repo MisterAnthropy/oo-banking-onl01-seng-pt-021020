@@ -15,7 +15,8 @@ class Transfer
   end
   
 
-  def execute_transaction 
+  def execute_transaction
+    if sender.balance < amount
     binding.pry 
 end
     
