@@ -19,7 +19,7 @@ class Transfer
    @sender - @amount
    @status = "complete"
    
-    binding.pry 
+    #binding.pry 
 end
     
     
