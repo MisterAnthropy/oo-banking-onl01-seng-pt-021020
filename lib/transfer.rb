@@ -26,6 +26,6 @@ class Transfer
     
     
     
-  end
+
   
 end
